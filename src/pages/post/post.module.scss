@@ -1,1 +1,64 @@
 // TODO
+.container {
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+  margin-top: 80px;
+
+  h1 {
+    color: var(--Heading, #f8f8f8);
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.5px;
+  }
+
+  .info {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    margin-top: 24px;
+
+    .item {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+
+      span,
+      time,
+      svg {
+        color: var(--Info, #bbb);
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+
+      svg {
+        width: 20px;
+        height: 20px;
+      }
+    }
+  }
+
+  .content {
+    margin-top: 64px;
+
+    color: var(--Heading, #f8f8f8);
+    text-align: justify;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+
+    p {
+      color: var(--Body, #d7d7d7);
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 140%;
+      white-space: 'pre-wrap';
+    }
+  }
+}
